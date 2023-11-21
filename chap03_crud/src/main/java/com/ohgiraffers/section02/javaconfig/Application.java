@@ -1,10 +1,9 @@
-package com.ohgiraffers.section01.xmlconfig;
-import com.ohgiraffers.section01.xmlconfig.controller.MenuController;
+package com.ohgiraffers.section02.javaconfig;
+import com.ohgiraffers.section02.javaconfig.controller.MenuController;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.ohgiraffers.common.Template.*;
 public class Application {
     public static void main(String[] args){
         //처음 세팅 잘 됐는지 확인
