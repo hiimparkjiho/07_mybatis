@@ -5,7 +5,6 @@ import com.ohgiraffers.common.model.SearchCriteria;
 
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 
 public interface DynamicSqlMapper {
     List<MenuDTO> selectMenuByPrice(Map<String, Integer> map);
