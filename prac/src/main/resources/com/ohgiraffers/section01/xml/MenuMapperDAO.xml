@@ -21,4 +21,13 @@
             ORDERABLE_STATUS
         FROM TBL_MENU
     </select>
+
+    <update id="updateMenu" parameterType="com.ohgiraffers.common.model.MenuDTO">
+        UPDATE TBL_MENU
+            SET MENU_NAME = #{menuName},
+            MENU_PRICE = #{price},
+            CATEGORY_CODE = #{categoryCode},
+            ORDERABLE_STATUS = #{orderableStatus}
+        WHERE MENU_CODE = #{menuCode}
+    </update>
 </mapper>
