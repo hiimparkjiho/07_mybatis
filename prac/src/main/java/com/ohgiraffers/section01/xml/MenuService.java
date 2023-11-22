@@ -13,6 +13,10 @@ public class MenuService {
         mapper = session.getMapper(MenuMapperDAO.class);
 
         List<MenuDTO> menuList = mapper.selectAll();
+        for(MenuDTO menu : menuList){
+            System.out.println(menu);
+        }
+        session.close();
 
     }
 }
